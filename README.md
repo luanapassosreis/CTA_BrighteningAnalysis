@@ -14,7 +14,7 @@ git clone git@github.com:luanapassosreis/CTS_BrighteningAnalysis.git
 
 You must change the path in __init__ and set it to this folder on your computer (CTA_BrighteningAnalysis/ folder)
 
->> __init__.ipynb << Initial imports, functions and dataframes for the 4LAC Analysis
+>> \_\_init\_\_.ipynb << Initial imports, functions and dataframes for the 4LAC Analysis
 
 From that point on, you can reproduce all plots/analysis, by opening the following files:
 
