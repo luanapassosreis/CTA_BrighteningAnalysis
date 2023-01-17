@@ -8,7 +8,7 @@ CTA_BrighteningAnalysis is an analysis of the sources filtered by Paolo Goldoni 
 This package can be installed by downloading it:
 
 ```
-git clone git@github.com:luanapassosreis/CTS_BrighteningAnalysis.git
+git clone git@github.com:luanapassosreis/CTA_BrighteningAnalysis.git
 
 ```
 
