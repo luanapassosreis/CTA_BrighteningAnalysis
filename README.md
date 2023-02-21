@@ -3,14 +3,6 @@
 CTA_BrighteningAnalysis is an analysis of the sources filtered by Paolo Goldoni from the 4LAC Fermi-LAT Catalog. This can be useful for the AGN Population Task Force and also the AGN Flares Task Forces of the Cherenkov Telescope Array Collaboration.
 
 
-## Installation
- 
-This package can be installed by downloading it:
-
-```
-git clone git@github.com:luanapassosreis/CTA_BrighteningAnalysis.git
-
-```
 
 You must change the path in \_\_init\_\_ and set it to this folder on your computer (CTA_BrighteningAnalysis/ folder)
 
@@ -18,11 +10,16 @@ You must change the path in \_\_init\_\_ and set it to this folder on your compu
 
 From that point on, you can reproduce all plots/analysis, by opening the following files:
 
->> Fvar_sources.ipynb << F_var analysis for the sources on 4LAC Catalog
+>> 1_Plot_lightcurves_and_spectrum.ipynb << Light Curve and Spectrum Plots of a chosen range of sources from the 4LAC Catalog
 
->> Plot_lightcurves_and_spectrum.ipynb << Light Curve and Spectrum Plots of a chosen range of sources from the 4LAC Catalog
+>> 2_Histogram_analysis.ipynb << Histogram Analysis of the 4LAC Catalog
 
->> Histogram_analys.ipynb << Histogram Analysis of the 4LAC Catalog
+>> 3_Fvar_analysis.ipynb << Fractional Variability Parameter analysis
+
+>> 4_UL_analysis.ipynb << Upper Limits analysis, when setting FluxUL = 0 and weighting the average to compute Fvar and Excess Variance
+
+>> 5_Excess_variance_analysis.ipynb << Fvar^2 analysis
+
 
 
 ## Files that may help:
